@@ -1,3 +1,3 @@
 # phonebay
 
-Electronics Ecommerce built with bootstap, php and mysql
+Electronics Ecommerce built with bootstrap, php and mysql
