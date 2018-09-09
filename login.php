@@ -5,6 +5,10 @@ session_start();
 include("includes/db.php");
 include("includes/secondary-header.php");
 
+if(isset($_SESSION['customer_email'])){
+    echo "<script>window.open('index.php','_self')</script>";
+}
+
 ?>  
 
         <main class="main"> 
@@ -21,12 +25,12 @@ include("includes/secondary-header.php");
                             <form action="" method="post" >
                                 <div class="form-group">
                                     <label>Username / Email <span>* amy@gmail.com</span></label>
-                                    <input type="text" placeholder="Your Username / Email" value="amy@gmail.com" name="c_email" autocomplete="off" required>
+                                    <input type="text" placeholder="Your Username / Email" value="ipin@gmail.com" name="c_email" autocomplete="off" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label>Password <span>* amy123</span></label>
-                                    <input type="password" placeholder="***********" value="amy123" name="c_pass" autocomplete="off" required>
+                                    <input type="password" placeholder="***********" value="test123" name="c_pass" autocomplete="off" required>
                                 </div>
 
                                 <div class="form-group flx-element">

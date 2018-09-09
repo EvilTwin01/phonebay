@@ -44,12 +44,25 @@
                         <div class="col-md-6 col-sm-6 col-xs-12 site-dir hidden-xs">                      
                         
                             <?php
-                                $trim_email = $_SESSION['customer_email'];
+                                $email = $_SESSION['customer_email'];
+
+                                $sql = "SELECT * FROM customer where customer_email = '$email'";
+                                $result = mysqli_query($con, $sql);
+                                
+                                if (mysqli_num_rows($result) > 0) {
+                                    // output data of each row
+                                    while($row = mysqli_fetch_assoc($result)) {
+                                        $username = $row["customer_username"];
+                                        //echo "id: " . $row["customer_id"]. " - Name: " . $row["customer_username"]. " Email " . $row["customer_email"]. "<br>";
+                                    }
+                                } else {
+                                    echo "0 results";
+                                }
 
                                 if(!isset($_SESSION['customer_email'])){
                                     echo "Welcome :Guest";
                                 }else{
-                                    echo "Welcome : " . substr($trim_email, 0, -10) . " !";
+                                    echo "Welcome : " . $username . " !";
                                 }
                             ?>
 

@@ -11,9 +11,8 @@ if(!isset($_SESSION['admin_email'])){
 
 <!DOCTYPE html>
 <html lang="en">
-
-
         <main class="main-wrapper clearfix">
+
             <!-- Page Title Area -->
             <div class="row page-title clearfix">
                 <div class="page-title-left">
@@ -31,99 +30,245 @@ if(!isset($_SESSION['admin_email'])){
                 <!-- /.page-title-right -->
             </div>
             <!-- /.page-title -->
+
+            <div class="row" >
+                    <!-- Tabs Justified -->
+                    <div class="col-md-12 widget-holder" >
+                        <div class="widget-bg">
+                            <div class="widget-body clearfix">
+                                <div class="tabs">
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <li class="nav-item"><a class="nav-link" href="#total-summary" data-toggle="tab" aria-expanded="true">Total Summary</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link active" href="#other-summary" data-toggle="tab" aria-expanded="true">Other Summary</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#today-summary" data-toggle="tab" aria-expanded="true">Today Summary</a>
+                                        </li>
+                                    </ul>
+                                    <!-- /.nav-tabs -->
+                                    <div class="tab-content" style="background-color: #f5f7fa;">
+                                        <div class="tab-pane" id="total-summary">
+                                                <div class="widget-list row">
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Members Online</p><span class="counter-title color-primary"><span class="counter">2860</span> </span>
+                                                                        <!-- /.counter-title --> <span class="counter-difference text-success"><i class="feather feather-arrow-up"></i> 23%</span>
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-primary"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Monthly Hoal</p><span class="counter-title color-info"><span class="counter">58</span>%</span>
+                                                                        <!-- /.counter-title --> <span class="counter-difference text-danger"><i class="feather feather-arrow-down"></i> 8%</span>
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-award bg-info"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Monthly Revenue</p><span class="counter-title color-pink">&dollar;<span class="counter">8470</span> </span>
+                                                                        <!-- /.counter-title -->
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-briefcase bg-pink"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Hours Worked</p><span class="counter-title"><span class="counter">376</span> </span>
+                                                                        <!-- /.counter-title -->
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-clock bg-warning"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                            </div>
+
+                                            <br>
+
+                                            <div class="widget-list row">
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Members Online</p><span class="counter-title color-primary"><span class="counter">2860</span> </span>
+                                                                        <!-- /.counter-title --> <span class="counter-difference text-success"><i class="feather feather-arrow-up"></i> 23%</span>
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-primary"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Monthly Hoal</p><span class="counter-title color-info"><span class="counter">58</span>%</span>
+                                                                        <!-- /.counter-title --> <span class="counter-difference text-danger"><i class="feather feather-arrow-down"></i> 8%</span>
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-award bg-info"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Monthly Revenue</p><span class="counter-title color-pink">&dollar;<span class="counter">8470</span> </span>
+                                                                        <!-- /.counter-title -->
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-briefcase bg-pink"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                                    <div class="widget-holder widget-sm col-md-3 widget-full-height">
+                                                        <div class="widget-bg">
+                                                            <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
+                                                                <div class="counter-w-info media">
+                                                                    <div class="media-body">
+                                                                        <p class="text-muted mr-b-5">Hours Worked</p><span class="counter-title"><span class="counter">376</span> </span>
+                                                                        <!-- /.counter-title -->
+                                                                        <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
+                                                                            data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- /.media-body -->
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-clock bg-warning"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- /.counter-w-info -->
+                                                            </div>
+                                                            <!-- /.widget-body -->
+                                                        </div>
+                                                        <!-- /.widget-bg -->
+                                                    </div>
+                                                    <!-- /.widget-holder -->
+                                            </div>
+                                        </div>
+                                        <!-- /.end total summary -->
+                                        <div class="tab-pane active" id="other-summary">
+                                            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                        </div>
+                                        <div class="tab-pane" id="today-summary">
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                        </div>
+                                    </div>
+                                    <!-- /.tab-content -->
+                                </div>
+                                <!-- /.tabs -->
+                            </div>
+                            <!-- /.widget-body -->
+                        </div>
+                        <!-- /.widget-bg -->
+                    </div>
+                    <!-- /.widget-holder -->
+                </div>
+                <!-- /.row -->
+            
+
+
+
+
+
+
+        
             <!-- =================================== -->
             <!-- Different data widgets ============ -->
             <!-- =================================== -->
             <div class="widget-list row">
-                <div class="widget-holder widget-sm col-md-3 widget-full-height">
-                    <div class="widget-bg">
-                        <div class="widget-body">
-                            <div class="counter-w-info media">
-                                <div class="media-body">
-                                    <p class="text-muted mr-b-5">Members Online</p><span class="counter-title color-primary"><span class="counter">2860</span> </span>
-                                    <!-- /.counter-title --> <span class="counter-difference text-success"><i class="feather feather-arrow-up"></i> 23%</span>
-                                    <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
-                                        data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
-                                    </div>
-                                </div>
-                                <!-- /.media-body -->
-                                <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-primary"></i>
-                                </div>
-                            </div>
-                            <!-- /.counter-w-info -->
-                        </div>
-                        <!-- /.widget-body -->
-                    </div>
-                    <!-- /.widget-bg -->
-                </div>
-                <!-- /.widget-holder -->
-                <div class="widget-holder widget-sm col-md-3 widget-full-height">
-                    <div class="widget-bg">
-                        <div class="widget-body">
-                            <div class="counter-w-info media">
-                                <div class="media-body">
-                                    <p class="text-muted mr-b-5">Monthly Hoal</p><span class="counter-title color-info"><span class="counter">58</span>%</span>
-                                    <!-- /.counter-title --> <span class="counter-difference text-danger"><i class="feather feather-arrow-down"></i> 8%</span>
-                                    <div class="progress" style="width: 70%; position: relative; top: 25px">
-                                        <div class="progress-bar bg-info" style="width: 66%" role="progressbar"><span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.media-body -->
-                                <div class="pull-right align-self-center"><i class="list-icon feather feather-award bg-info"></i>
-                                </div>
-                            </div>
-                            <!-- /.counter-w-info -->
-                        </div>
-                        <!-- /.widget-body -->
-                    </div>
-                    <!-- /.widget-bg -->
-                </div>
-                <!-- /.widget-holder -->
-                <div class="widget-holder widget-sm col-md-3 widget-full-height">
-                    <div class="widget-bg">
-                        <div class="widget-body">
-                            <div class="counter-w-info media">
-                                <div class="media-body">
-                                    <p class="text-muted mr-b-5">Monthly Revenue</p><span class="counter-title color-pink">&dollar;<span class="counter">8470</span> </span>
-                                    <!-- /.counter-title -->
-                                    <div style="margin-top: 15px"><span data-toggle="sparklines" data-height="15" data-bar-width="3" data-type="bar" data-chart-range-min="0" data-bar-spacing="3" data-bar-color="#ff6b88"><!-- 2,4,5,3,2,3,5,3,2,3,5,4,2 --></span>
-                                    </div>
-                                </div>
-                                <!-- /.media-body -->
-                                <div class="pull-right align-self-center"><i class="list-icon feather feather-briefcase bg-pink"></i>
-                                </div>
-                            </div>
-                            <!-- /.counter-w-info -->
-                        </div>
-                        <!-- /.widget-body -->
-                    </div>
-                    <!-- /.widget-bg -->
-                </div>
-                <!-- /.widget-holder -->
-                <div class="widget-holder widget-sm col-md-3 widget-full-height">
-                    <div class="widget-bg">
-                        <div class="widget-body">
-                            <div class="counter-w-info media">
-                                <div class="media-body">
-                                    <p class="text-muted mr-b-5">Hours Worked</p><span class="counter-title"><span class="counter">376</span> </span>
-                                    <!-- /.counter-title -->
-                                    <div class="progress" style="width: 70%; position: relative; top: 25px">
-                                        <div class="progress-bar bg-warning" style="width: 66%" role="progressbar"><span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.media-body -->
-                                <div class="pull-right align-self-center"><i class="list-icon feather feather-clock bg-warning"></i>
-                                </div>
-                            </div>
-                            <!-- /.counter-w-info -->
-                        </div>
-                        <!-- /.widget-body -->
-                    </div>
-                    <!-- /.widget-bg -->
-                </div>
-                <!-- /.widget-holder -->
                 <div class="widget-holder widget-full-height widget-flex col-lg-6">
                     <div class="widget-bg">
                         <div class="widget-heading">

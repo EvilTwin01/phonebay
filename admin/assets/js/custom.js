@@ -2725,6 +2725,12 @@
             backgroundColor: "#00cedc",
             strokeColor: "#00cedc",
             data: [28, 48, 40, 19, 80, 27, 50]
+          },
+          {
+            label: "My third dataset",
+            backgroundColor: "#00dedc",
+            strokeColor: "#00dedc",
+            data: [40, 48, 40, 25, 80, 27, 50]
           }
         ]
       };
