@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport' />
-    <title>Orders - Electro</title>
+    <title>Downloadn - Electro</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/fav.png" />
@@ -80,8 +80,8 @@
                                         <i class="fa fa-user"></i> ACCOUNT <i class="fa fa-angle-down"></i>
                                     </span>
                                     <ul class="drop-link trans">
-                                        <li><a href="login.html" class="bg-dark">Login</a></li>
-                                        <li><a href="signup.html" class="bg-dark">Register</a></li>
+                                        <li><a href="login.php" class="bg-dark">Login</a></li>
+                                        <li><a href="signup.php" class="bg-dark">Register</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,8 +129,8 @@
                                     </div>
 
                                     <div class="btn-hold flx-element">
-                                        <a class="btn text-uppercase" href="cart.html">view cart</a>
-                                        <a class="btn pri-bg text-uppercase" href="checkout.html">checkout</a>
+                                        <a class="btn text-uppercase" href="cart.php">view cart</a>
+                                        <a class="btn pri-bg text-uppercase" href="checkout.php">checkout</a>
                                     </div>
                                 </div>
                                 <!--mini cart-->
@@ -145,8 +145,8 @@
                 <div class="container">
                     <div class="header-mid">                       
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a> 
-                             <!--<a class="navbar-brand site-brand" href="index.html">Electro</a>--> 
+                            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a> 
+                             <!--<a class="navbar-brand site-brand" href="index.php">Electro</a>--> 
 
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                <span class="sr-only">Toggle navigation</span>
@@ -159,7 +159,7 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
 
                                <li class="active menu-item-has-children mega-menu">
                                     <a href="#">shop</a>
@@ -169,23 +169,23 @@
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Shop pages</h6>
                                                 <ul>
-                                                    <li><a href="single-category.html">single category</a></li>
+                                                    <li><a href="single-category.php">single category</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Product pages</h6>
                                                 <ul>
-                                                    <li><a href="product-single-v1.html">Product single v1</a></li>
+                                                    <li><a href="product-single-v1.php">Product single v1</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>account</h6>
                                                 <ul>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="cart.html">cart</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li> 
+                                                    <li><a href="wishlist.php">wishlist</a></li>
+                                                    <li><a href="cart.php">cart</a></li>
+                                                    <li><a href="checkout.php">checkout</a></li> 
                                                 </ul>
                                             </div>
 
@@ -197,14 +197,14 @@
                                <li class="menu-item-has-children">
                                     <a href="#">pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="faq.html">faq</a></li>  
-                                        <li><a href="account/dashboard.html">user account</a></li>  
+                                        <li><a href="faq.php">faq</a></li>  
+                                        <li><a href="account/dashboard.php">user account</a></li>  
                                     </ul>
                                 </li>
 
-                                <li><a href="blog-v2.html">News</a></li>
+                                <li><a href="blog-v2.php">News</a></li>
 
-                                <li><a href="contact-v1.html">Get In Touch</a></li>
+                                <li><a href="contact-v1.php">Get In Touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                 </div>   
             </nav>  
         </header>
-        <!--header-->   
+        <!--header-->    
 
         <div class="dash-pg-header pg-header style2">
             <div class="container">
@@ -243,37 +243,37 @@
                         <nav class="account-nav">
                             <ul>
                                 <li>
-                                    <a href="dashboard.html">
+                                    <a href="dashboard.php">
                                         <span class="icon radius-circle"><i class="pe-7s-keypad"></i></span> Dashboard
                                     </a>
                                 </li>
 
-                                <li class="active">
-                                    <a href="orders.html">
+                                <li>
+                                    <a href="orders.php">
                                         <span class="icon radius-circle"><i class="pe-7s-cart"></i></span> Orders
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a href="downloads.html">
+                                <li class="active">
+                                    <a href="downloads.php">
                                         <span class="icon radius-circle"><i class="pe-7s-cloud-download"></i></span> Downloads
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="addresses.html">
+                                    <a href="addresses.php">
                                         <span class="icon radius-circle"><i class="pe-7s-map-marker"></i></span> Addresses
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="account-detail.html">
+                                    <a href="account-detail.php">
                                         <span class="icon radius-circle"><i class="pe-7s-user"></i></span> Account details
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="../login.html">
+                                    <a href="../login.php">
                                         <span class="icon radius-circle"><i class="pe-7s-plug"></i></span> Log out
                                     </a>
                                 </li>
@@ -281,91 +281,9 @@
                         </nav>
 
                         <div class="account-content">
-                             <table class="shop_table account-orders-table">
-                                <thead>
-                                    <tr>
-                                        <th><span class="nobr">Order</span></th>
-                                        <th><span class="nobr">Date</span></th>
-                                        <th><span class="nobr">Status</span></th>
-                                        <th><span class="nobr">Total</span></th>
-                                        <th><span class="nobr">Actions</span></th>
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-                                    <tr class="order">
-                                        <td class="" data-title="Order">
-                                            <a href="#"> #91</a>
-                                        </td>
-                                        <td data-title="Date">
-                                            <time datetime="2018-04-17T17:29:30+00:00">April 17, 2018</time>
-                                        </td>
-                                        <td data-title="Status">
-                                            On hold
-                                        </td>
-                                        <td data-title="Total">
-                                            <span>RM20.00 for 1 item</span>
-                                        </td>
-                                        <td data-title="Actions">
-                                            <a href="#" class="btn btn-default view"> view</a>
-                                        </td>
-                                    </tr>
-
-                                    <tr class="order">
-                                        <td class="" data-title="Order">
-                                            <a href="#"> #92</a>
-                                        </td>
-                                        <td data-title="Date">
-                                            <time datetime="2018-04-17T17:29:30+00:00">April 17, 2018</time>
-                                        </td>
-                                        <td data-title="Status">
-                                            On hold
-                                        </td>
-                                        <td data-title="Total">
-                                            <span>RM15.00 for 1 item</span>
-                                        </td>
-                                        <td data-title="Actions">
-                                            <a href="#" class="btn btn-default view"> view</a>
-                                        </td>
-                                    </tr>
-
-                                    <tr class="order">
-                                        <td class="" data-title="Order">
-                                            <a href="#"> #93</a>
-                                        </td>
-                                        <td data-title="Date">
-                                            <time datetime="2018-04-17T17:29:30+00:00">April 17, 2018</time>
-                                        </td>
-                                        <td data-title="Status">
-                                            On hold
-                                        </td>
-                                        <td data-title="Total">
-                                            <span>RM25.00 for 1 item</span>
-                                        </td>
-                                        <td data-title="Actions">
-                                            <a href="#" class="btn btn-default view"> view</a>
-                                        </td>
-                                    </tr>
-
-                                    <tr class="order">
-                                        <td class="" data-title="Order">
-                                            <a href="#"> #94</a>
-                                        </td>
-                                        <td data-title="Date">
-                                            <time datetime="2018-04-17T17:29:30+00:00">April 17, 2018</time>
-                                        </td>
-                                        <td data-title="Status">
-                                            On hold
-                                        </td>
-                                        <td data-title="Total">
-                                            <span>RM30.00 for 1 item</span>
-                                        </td>
-                                        <td data-title="Actions">
-                                            <a href="#" class="btn btn-default view">  view</a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="checkout-info flx-element ">
+                                No downloads available yet. <a href="#"><i class="pe-7s-cart"></i> GO SHOP</a> 
+                            </div>
                         </div>
                     </div>      
                 </div>    

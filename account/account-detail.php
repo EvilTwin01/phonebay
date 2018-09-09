@@ -5,38 +5,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport' />
-    <title>Contact V1 - Electro</title>
+    <title>Account Detail - Electro</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/fav.png" />
 
     <!--Stylesheets -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome-animation.min.css" rel="stylesheet">
-    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet">
-    <link href="assets/css/icofont.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.min.css" rel="stylesheet">
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <link href="assets/css/slick-theme.css" rel="stylesheet">
-    <link href="assets/css/youtube-pop-up.css" rel="stylesheet">
-    <link href="assets/css/full-screen-menu.css" rel="stylesheet">
-    <link href="assets/css/fractionslider.css" rel="stylesheet">
-    <link href="assets/css/component.css" rel="stylesheet"> 
-    <link href="assets/css/lightcase.css" rel="stylesheet">
-    <link href="assets/css/slider-360.css" rel="stylesheet">
-    <link href="assets/css/amaran.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="assets/css/skin/default.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome-animation.min.css" rel="stylesheet">
+    <link href="../assets/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="../assets/css/icofont.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="../assets/css/slick.css" rel="stylesheet">
+    <link href="../assets/css/slick-theme.css" rel="stylesheet">
+    <link href="../assets/css/youtube-pop-up.css" rel="stylesheet">
+    <link href="../assets/css/full-screen-menu.css" rel="stylesheet">
+    <link href="../assets/css/fractionslider.css" rel="stylesheet">
+    <link href="../assets/css/component.css" rel="stylesheet"> 
+    <link href="../assets/css/lightcase.css" rel="stylesheet">
+    <link href="../assets/css/slider-360.css" rel="stylesheet">
+    <link href="../assets/css/amaran.min.css" rel="stylesheet">    
+    <link href="../style.css" rel="stylesheet"> 
+    <link href="../assets/css/skin/default.css" rel="stylesheet">
+    <link href="../assets/css/responsive.css" rel="stylesheet">
 
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800%7CRaleway:300,400,400i,500,500i,600,600i,700,800" rel="stylesheet">
 </head>
 
 <body>
-    <div id="wrap">
+    <div id="wrap"> 
         <header>
             <div class="top-bar bg-dark">
                 <div class="container">
@@ -80,8 +80,8 @@
                                         <i class="fa fa-user"></i> ACCOUNT <i class="fa fa-angle-down"></i>
                                     </span>
                                     <ul class="drop-link trans">
-                                        <li><a href="login.html" class="bg-dark">Login</a></li>
-                                        <li><a href="signup.html" class="bg-dark">Register</a></li>
+                                        <li><a href="login.php" class="bg-dark">Login</a></li>
+                                        <li><a href="signup.php" class="bg-dark">Register</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,8 +129,8 @@
                                     </div>
 
                                     <div class="btn-hold flx-element">
-                                        <a class="btn text-uppercase" href="cart.html">view cart</a>
-                                        <a class="btn pri-bg text-uppercase" href="checkout.html">checkout</a>
+                                        <a class="btn text-uppercase" href="cart.php">view cart</a>
+                                        <a class="btn pri-bg text-uppercase" href="checkout.php">checkout</a>
                                     </div>
                                 </div>
                                 <!--mini cart-->
@@ -145,8 +145,8 @@
                 <div class="container">
                     <div class="header-mid">                       
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a> 
-                             <!--<a class="navbar-brand site-brand" href="index.html">Electro</a>--> 
+                            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a> 
+                             <!--<a class="navbar-brand site-brand" href="index.php">Electro</a>--> 
 
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                <span class="sr-only">Toggle navigation</span>
@@ -159,7 +159,7 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
 
                                <li class="active menu-item-has-children mega-menu">
                                     <a href="#">shop</a>
@@ -169,23 +169,23 @@
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Shop pages</h6>
                                                 <ul>
-                                                    <li><a href="single-category.html">single category</a></li>
+                                                    <li><a href="single-category.php">single category</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Product pages</h6>
                                                 <ul>
-                                                    <li><a href="product-single-v1.html">Product single v1</a></li>
+                                                    <li><a href="product-single-v1.php">Product single v1</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>account</h6>
                                                 <ul>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="cart.html">cart</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li> 
+                                                    <li><a href="wishlist.php">wishlist</a></li>
+                                                    <li><a href="cart.php">cart</a></li>
+                                                    <li><a href="checkout.php">checkout</a></li> 
                                                 </ul>
                                             </div>
 
@@ -197,14 +197,14 @@
                                <li class="menu-item-has-children">
                                     <a href="#">pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="faq.html">faq</a></li>  
-                                        <li><a href="account/dashboard.html">user account</a></li>  
+                                        <li><a href="faq.php">faq</a></li>  
+                                        <li><a href="account/dashboard.php">user account</a></li>  
                                     </ul>
                                 </li>
 
-                                <li><a href="blog-v2.html">News</a></li>
+                                <li><a href="blog-v2.php">News</a></li>
 
-                                <li><a href="contact-v1.html">Get In Touch</a></li>
+                                <li><a href="contact-v1.php">Get In Touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -216,123 +216,118 @@
                 </div>   
             </nav>  
         </header>
-        <!--header-->
+        <!--header-->   
 
-        <div class="pg-header jarallax overlay parlx-pad sec-mar">
-            <img class="jarallax-img" src="assets/images/contact-banner.jpg" alt="">
+        <div class="dash-pg-header pg-header style2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 text-center"> 
-                        <h2>Contact us</h2>
+                    <div class="col-md-12 col-sm-12 flx-element wrap"> 
+                        <div class="left">
+                            <h4 class="bm-0 text-white">My Account</h4> 
+                        </div>
+                        <!--left-->
+
                         <ul class="breadcrumb">
                             <li><a href="#">Home</a></li>
-                            <li class="active">Contact</li>
+                            <li class="active">Cart</li>
                         </ul>
                     </div>              
                 </div>
             </div>
         </div>
-        <!--page title-->
 
-        <main class="main"> 
+        <main class="dash-content bg-soft-gray sec-padding">
             <div class="container">
-                 <div class="row bm-50">
-                    <div class="col-md-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-xs-12 text-center">
-                        <div class="title mid-sep bm-30"><h2>Make an enquiry</h2></div>  
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="account-nav">
+                            <ul>
+                                <li>
+                                    <a href="dashboard.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-keypad"></i></span> Dashboard
+                                    </a>
+                                </li>
 
-                        <p>Lorem ipsum dolor sit amet  adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor dapibus eget. Mauris tincidunt aliquam lectus sed vestibulum. Vestibulum bibendum suscipit mattis.</p>
-                    </div>
-                </div>
+                                <li>
+                                    <a href="orders.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-cart"></i></span> Orders
+                                    </a>
+                                </li>
 
-                <div class="row sec-mar contact-form-1"> 
-                    <div class="col-md-8 col-sm-offset-2 col-sm-8 col-md-offset-2">
-                        <form>
-                            <div class="row">
-                                <div class="form-group col-sm-6">
-                                    <input type="text" placeholder="First name">
+                                <li>
+                                    <a href="downloads.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-cloud-download"></i></span> Downloads
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="addresses.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-map-marker"></i></span> Addresses
+                                    </a>
+                                </li>
+
+                                <li class="active">
+                                    <a href="account-detail.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-user"></i></span> Account details
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../login.php">
+                                        <span class="icon radius-circle"><i class="pe-7s-plug"></i></span> Log out
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="account-content"> 
+                            <form method="post">
+                                <div class="row"> 
+                                    <div class="form-group col-sm-4">
+                                        <label>First name <span class="required">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <!--first name-->
+
+                                    <div class="form-group col-sm-4">
+                                        <label>Last name <span class="required">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <!--last name-->
+
+                                    <div class="form-group col-sm-4">
+                                        <label>Email address <span class="required">*</span></label>
+                                        <input type="text">
+                                    </div>
+                                    <!--email address--> 
+
+                                    <div class="form-group col-sm-6">
+                                        <label>Current password (leave blank to leave unchanged)</label>
+                                        <input type="password">
+                                    </div>
+                                    <!--current pass-->
+
+                                    <div class="form-group col-sm-6">
+                                        <label>New password (leave blank to leave unchanged)</label>
+                                        <input type="password">
+                                    </div>
+                                    <!--new pass-->
+
+                                    <div class="form-group col-sm-12">
+                                        <label>Confirm new password</label>
+                                        <input type="password">
+                                    </div>
+                                    <!--confirm pass--> 
+
+                                    <div class="form-group col-sm-12">
+                                        <input type="submit" value="SUBMIT">
+                                   </div> 
                                 </div>
-                                <!--name-->
-
-                                <div class="form-group col-sm-6">
-                                    <input type="text" placeholder="Last name">
-                                </div>
-                                <!--last name-->
-
-                                <div class="form-group col-sm-6">
-                                    <input type="email" placeholder="Email">
-                                </div>
-                                <!--name-->
-
-                                <div class="form-group col-sm-6">
-                                    <input type="tel" placeholder="Phone">
-                                </div>
-                                <!--last name--> 
-
-                                <div class="form-group col-sm-12">
-                                    <textarea placeholder="Message"></textarea>
-                                </div>
-                                <!--message-->    
-
-                                <div class="form-group col-sm-12">
-                                    <input type="submit" value="SUBMIT">
-                               </div>                            
-                            </div>
-                        </form>
-                    </div>
-                </div>
-             </div> 
-             <!--enquiry form-->
-
-             <div class="container">
-                 <div class="gutter-0 sec-mar">
-                     <div class="row contact-bottom ">
-                        <div class="col-md-3 col-sm-3 text-white left">
-                            <div class="wrap sec-bg">
-                                <h4 class="text-white text-uppercase bm-30">Company information</h4> 
-
-                                 <div class="info">
-                                    <div class="icon-wrap">
-                                        <span class="icon radius-circle"><i class="pe-7s-phone"></i></span> 
-                                    </div>
-
-                                    <div>
-                                        <p>+01 234 5685</p> 
-                                        <p>+01 234 5685</p>
-                                    </div>
-                                 </div>
-
-                                 <div class="info">
-                                    <div class="icon-wrap">
-                                        <span class="icon radius-circle"><i class="pe-7s-mail"></i></span> 
-                                    </div>
-
-                                    <div>
-                                        <p>info@electro.com</p>   
-                                        <p>sales@electro.com</p>
-                                    </div>
-                                 </div>
-
-                                 <div class="info">
-                                    <div class="icon-wrap">
-                                        <span class="icon radius-circle"><i class="pe-7s-map-marker"></i></span> 
-                                    </div>
-
-                                    <div>
-                                        <p>Progressively iterate  <br>
-                                        seamless technology </p>
-                                    </div>
-                                 </div>
-                            </div>
-                         </div>
-
-                         <div class="col-md-9 col-sm-9">
-                             <div class="map-hold">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1sm18!1m12!1m3!1d424143.279121209!2d150.65108987709291!3d-33.8479254539181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney+NSW%2C+Australia!5e0!3m2!1sen!2snp!4v1513605431022" width="600" height="450"  allowfullscreen></iframe>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+                            </form>
+                        </div>
+                    </div>      
+                </div>    
+            </div>
         </main>
         <!--main-->
 
@@ -441,8 +436,9 @@
         </footer>
         <!--footer-->
     </div>
+    <!--wrap--> 
 
-    <div id="morphsearch" class="morphsearch">
+     <div id="morphsearch" class="morphsearch">
         <div class="morphsearch-content">
             <div class="container">
                 <span class="morphsearch-close"></span>
@@ -455,27 +451,28 @@
         </div><!-- /morphsearch-content -->        
     </div>
     <!--search wrap-->
-    
+
+
     <a href="#" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
-    
+
     <!-- jQuery library -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <script src="assets/js/touch.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/youtube-jquery.js"></script>
-    <script src="assets/js/jquery.fractionslider.min.js"></script>
-    <script src="assets/js/masonry.pkgd.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/jarallax-video.min.js"></script>
-    <script src="assets/js/lightcase.js"></script>
-    <script src="assets/js/threesixty.min.js"></script>
-    <script src="assets/js/jquery.amaran.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery-ui.min.js"></script>
+    <script src="../assets/js/touch.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/jquery.countdown.min.js"></script>
+    <script src="../assets/js/count-up.min.js"></script>
+    <script src="../assets/js/jquery.waypoints.min.js"></script>
+    <script src="../assets/js/youtube-jquery.js"></script>
+    <script src="../assets/js/jquery.fractionslider.min.js"></script>
+    <script src="../assets/js/masonry.pkgd.min.js"></script>
+    <script src="../assets/js/jarallax.min.js"></script>
+    <script src="../assets/js/jarallax-video.min.js"></script>
+    <script src="../assets/js/lightcase.js"></script>
+    <script src="../assets/js/threesixty.min.js"></script>
+    <script src="../assets/js/jquery.amaran.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>

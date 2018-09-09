@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport' />
-    <title>Cart - Electro</title>
+    <title>Blog Chess Layout - Electro</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/fav.png" />
@@ -80,8 +80,8 @@
                                         <i class="fa fa-user"></i> ACCOUNT <i class="fa fa-angle-down"></i>
                                     </span>
                                     <ul class="drop-link trans">
-                                        <li><a href="login.html" class="bg-dark">Login</a></li>
-                                        <li><a href="signup.html" class="bg-dark">Register</a></li>
+                                        <li><a href="login.php" class="bg-dark">Login</a></li>
+                                        <li><a href="signup.php" class="bg-dark">Register</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,8 +129,8 @@
                                     </div>
 
                                     <div class="btn-hold flx-element">
-                                        <a class="btn text-uppercase" href="cart.html">view cart</a>
-                                        <a class="btn pri-bg text-uppercase" href="checkout.html">checkout</a>
+                                        <a class="btn text-uppercase" href="cart.php">view cart</a>
+                                        <a class="btn pri-bg text-uppercase" href="checkout.php">checkout</a>
                                     </div>
                                 </div>
                                 <!--mini cart-->
@@ -145,8 +145,8 @@
                 <div class="container">
                     <div class="header-mid">                       
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a> 
-                             <!--<a class="navbar-brand site-brand" href="index.html">Electro</a>--> 
+                            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a> 
+                             <!--<a class="navbar-brand site-brand" href="index.php">Electro</a>--> 
 
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                <span class="sr-only">Toggle navigation</span>
@@ -159,7 +159,7 @@
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
 
                                <li class="active menu-item-has-children mega-menu">
                                     <a href="#">shop</a>
@@ -169,23 +169,23 @@
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Shop pages</h6>
                                                 <ul>
-                                                    <li><a href="single-category.html">single category</a></li>
+                                                    <li><a href="single-category.php">single category</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>Product pages</h6>
                                                 <ul>
-                                                    <li><a href="product-single-v1.html">Product single v1</a></li>
+                                                    <li><a href="product-single-v1.php">Product single v1</a></li>
                                                 </ul>
                                             </div>
 
                                             <div class="col-sm-4 menu-item-has-children">
                                                 <h6>account</h6>
                                                 <ul>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="cart.html">cart</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li> 
+                                                    <li><a href="wishlist.php">wishlist</a></li>
+                                                    <li><a href="cart.php">cart</a></li>
+                                                    <li><a href="checkout.php">checkout</a></li> 
                                                 </ul>
                                             </div>
 
@@ -197,14 +197,14 @@
                                <li class="menu-item-has-children">
                                     <a href="#">pages</a>
                                     <ul class="sub-menu">
-                                        <li><a href="faq.html">faq</a></li>  
-                                        <li><a href="account/dashboard.html">user account</a></li>  
+                                        <li><a href="faq.php">faq</a></li>  
+                                        <li><a href="account/dashboard.php">user account</a></li>  
                                     </ul>
                                 </li>
 
-                                <li><a href="blog-v2.html">News</a></li>
+                                <li><a href="blog-v2.php">News</a></li>
 
-                                <li><a href="contact-v1.html">Get In Touch</a></li>
+                                <li><a href="contact-v1.php">Get In Touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -216,17 +216,17 @@
                 </div>   
             </nav>  
         </header>
-        <!--header-->   
+        <!--header--> 
 
         <div class="pg-header jarallax overlay parlx-pad sec-mar">
-            <img class="jarallax-img" src="assets/images/page-title.jpg" alt="">
+            <img class="jarallax-img" src="assets/images/page-title3.jpg" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center"> 
-                        <h2>Cart</h2>
+                        <h2>Blog</h2>
                         <ul class="breadcrumb">
                             <li><a href="#">Home</a></li>
-                            <li class="active">Cart</li>
+                            <li class="active">Blog</li>
                         </ul>
                     </div>              
                 </div>
@@ -234,151 +234,210 @@
         </div>
         <!--page title-->
 
-        <main class="main cart"> 
+        <main class="main"> 
             <div class="container">
-                <form action="#">  
-                    <div class="row sec-mar">                    
-                        <div class="col-md-12 col-sm-12">                        
-                            <table class="table_shop">
-                                <thead>
-                                    <tr>
-                                        <th class="pdt_remove"></th>
-                                        <th class="pdt_name">Product</th>
-                                        <th class="pdt_price">Price</th>
-                                        <th class="pdt_qty">Quantity</th>
-                                        <th class="pdt_subtotal">Total</th> 
-                                    </tr>
-                                </thead>
+                <div class="row blog-list-wrap modern sec-mar"> 
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big1.jpg" alt=""></a>
+                        </figure>
 
-                                <tbody>
-                                    <tr class="crt_itm">
-                                        <td class="pdt_remove" data-title="Remove"> <a href="#"><i class="pe-7s-close"></i></a> </td>
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
 
-                                        <td class="pdt_name" data-title="Product name">
-                                            <figure class="pdt_thumb">
-                                                <img src="assets/images/cart-pdt-thumb1.jpg" alt="">
-                                            </figure>
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
 
-                                            <span class="pdt_title">Ladies black full sleeves</span>
-                                        </td>
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
 
-                                        <td class="pdt_price" data-title="Price">RM175.00</td>
-
-                                        <td class="pdt_qty" data-title="Quantity">
-                                            <input type="number" value="1" title="Qty" class="input-text qty" size="4">
-                                        </td>
-
-                                        <td class="pdt_subtotal" data-title="Total">RM175.00</td> 
-                                    </tr>
-                                    <!--single item-->
-
-                                    <tr class="crt_itm">
-                                        <td class="pdt_remove" data-title="Remove"> <a href="#"><i class="pe-7s-close"></i></a> </td>
-
-                                        <td class="pdt_name" data-title="Product name">
-                                            <figure class="pdt_thumb">
-                                                <img src="assets/images/cart-pdt-thumb2.jpg" alt="">
-                                            </figure>
-
-                                            <span class="pdt_title">Men’s shirt</span>
-                                        </td>
-
-                                        <td class="pdt_price" data-title="Price">RM175.00</td>
-
-                                        <td class="pdt_qty" data-title="Quantity">
-                                            <input type="number" value="1" title="Qty" class="input-text qty" size="4">
-                                        </td>
-
-                                        <td class="pdt_subtotal" data-title="Total">RM175.00</td> 
-                                    </tr>
-                                    <!--single item--> 
-
-                                    <tr class="crt_itm">
-                                        <td class="pdt_remove" data-title="Remove"> <a href="#"><i class="pe-7s-close"></i></a> </td>
-
-                                        <td class="pdt_name" data-title="Product name">
-                                            <figure class="pdt_thumb">
-                                                <img src="assets/images/cart-pdt-thumb3.jpg" alt="">
-                                            </figure>
-
-                                            <span class="pdt_title">Ladies full sleeves</span>
-                                        </td>
-
-                                        <td class="pdt_price" data-title="Price">RM175.00</td>
-
-                                        <td class="pdt_qty" data-title="Quantity">
-                                            <input type="number" value="1" title="Qty" class="input-text qty" size="4">
-                                        </td>
-
-                                        <td class="pdt_subtotal" data-title="Total">RM175.00</td> 
-                                    </tr>
-                                    <!--single item-->
-
-                                    <tr class="crt_itm">
-                                        <td class="pdt_remove" data-title="Remove"> <a href="#"><i class="pe-7s-close"></i></a> </td>
-
-                                        <td class="pdt_name" data-title="Product name">
-                                            <figure class="pdt_thumb">
-                                                <img src="assets/images/cart-pdt-thumb4.jpg" alt="">
-                                            </figure>
-
-                                            <span class="pdt_title">Ladies full sleeves</span>
-                                        </td>
-
-                                        <td class="pdt_price" data-title="Price">RM175.00</td>
-
-                                        <td class="pdt_qty" data-title="Quantity">
-                                            <input type="number" value="1" title="Qty" class="input-text qty" size="4">
-                                        </td>
-
-                                        <td class="pdt_subtotal" data-title="Total">RM175.00</td> 
-                                    </tr>
-                                    <!--single item-->  
-
-                                    <tr>
-                                        <td colspan="5" class="cupon-action">
-                                            <div class="flx-element"> 
-                                                <div class="coupon">
-                                                    <input type="text"  placeholder="Coupon Code">
-                                                    <input type="submit"  value="Apply Coupon">
-                                                </div>
-                                                <!--coupon-->
-
-                                                <a class="btn btn_cart">Continue shopping</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>                        
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
                         </div>
-                        <!--shop table--> 
+                    </div>
+                    <!--single blog-->
+
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big2.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
+
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
+
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
+
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
+                        </div>
+                    </div>
+                    <!--single blog-->
+
+
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big3.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
+
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
+
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
+
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
+                        </div>
+                    </div>
+                    <!--single blog-->
+
+
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big4.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
+
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
+
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
+
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
+                        </div>
+                    </div>
+                    <!--single blog-->
+
+
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big5.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
+
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
+
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
+
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
+                        </div>
+                    </div>
+                    <!--single blog-->
+
+
+                    <div class="col-md-12 col-sm-12 blog-wrap">
+                        <figure class="img-animi">
+                            <a href="#"><img src="assets/images/blog-modern-big6.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="post-wrap">  
+                            <div class="entry-info">
+                                <span class="entry-date pri-bg">aug 10 2017</span>
+                                <span class="comment-count"><a href="#"><i class="fa fa-comments"></i> 5</a></span>
+                                <span class="post-tag">
+                                    <i class="fa fa-tag"></i> 
+                                    <a href="#">#fashion</a> 
+                                    <a href="#">#Shop</a>
+                                </span>
+                            </div>
+
+                            <h3 class="post-title">
+                                <a href="#">Proactively incubate plug-and-play collaboration.</a>
+                            </h3>
+
+                            <div class="content-hold">
+                                <p>
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, magnis dis parturient montes.
+                                </p>
+                            </div>
+                            <!--content-->
+
+                            <a class="btn faa-parent animated-hover">Read more <i class="fa fa-long-arrow-right faa-passing"></i></a>
+                        </div>
+                    </div>
+                    <!--single blog-->
  
-                        <div class="bdr-box cart-collaterals">
-                            <h4>Cart Totals</h4>
 
-                            <table class="table_shop">
-                                <tbody>
-                                    <tr>
-                                        <td>Subtotal</td>
-                                        <td>RM700.00</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Shipping</td>
-                                        <td>RM25.00</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Grand Total</td>
-                                        <td>RM725.00</td>
-                                    </tr>
-                                </tbody>    
-                            </table>
-
-                            <a class="btn pri-bg">PROCEED TO CHECKOUT</a>
-                        </div> 
-                    </div> 
-                </form>               
+                    <div class="ajax-loading text-center lh-normal">
+                       <!-- <img src="assets/css/ajax-loader.gif" alt="loading"> --> Loading....
+                    </div>    
+                </div>            
             </div>  
         </main>
         <!--main-->
