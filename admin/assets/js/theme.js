@@ -48,7 +48,7 @@
       this.enableGoogleMaps();
       this.enableFullCalendar();
       this.enableClndr();
-      this.enableDataTables();
+      //this.enableDataTables();
       this.enableFootable();
       this.enableTableEditable();
       this.enableCountUp();
@@ -1005,6 +1005,7 @@
       });
     },
 
+    /*
     enableDataTables: function() {
       var el = $('[data-toggle="datatables"]');
       if ( !el.length ) return;
@@ -1024,7 +1025,7 @@
         this.unifato.datatable = $this.DataTable(options);
       });
     },
-
+  */
     enableFootable: function(){
       var el = $('[data-toggle="footable"]');
       if( !el.length ) return;

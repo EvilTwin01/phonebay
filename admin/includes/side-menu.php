@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/pace.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Starter Template for Unifato</title>
+    <title>Advanced Dashboard</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600%7CRoboto:400" rel="stylesheet" type="text/css">
     <link href="assets/vendors/material-icons/material-icons.css" rel="stylesheet" type="text/css">
@@ -18,6 +18,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/switchery/0.8.2/switchery.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.25/daterangepicker.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- Head Libs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>

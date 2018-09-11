@@ -42,7 +42,7 @@ if(!isset($_SESSION['admin_email'])){
                             </div>
                             <!-- /.widget-heading -->
                             <div class="widget-body clearfix">
-                                <table class="table table-striped table-responsive" data-toggle="datatables" data-plugin-options='{"searching": true}'>
+                                <table id="example" class="table table-striped table-responsive">
                                     <thead>
                                         <tr>
                                             <th>Name</th>
@@ -706,6 +706,27 @@ if(!isset($_SESSION['admin_email'])){
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+
+    <script>
+
+    $(document).ready(function() {
+        $('#example').DataTable( {
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf'
+                
+            ]
+        });
+    });    
+
+    </script>
 </body>
 
 </html>

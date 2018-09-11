@@ -38,11 +38,11 @@ if(!isset($_SESSION['admin_email'])){
                             <div class="widget-body clearfix">
                                 <div class="tabs">
                                     <ul class="nav nav-tabs nav-justified">
-                                        <li class="nav-item"><a class="nav-link" href="#total-summary" data-toggle="tab" aria-expanded="true">Total Summary</a>
+                                        <li class="nav-item"><a class="nav-link" href="#total-summary" data-toggle="tab" aria-expanded="true">Total Summary<i class="list-icon fa fa-cogs pull-right"></i></a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link active" href="#other-summary" data-toggle="tab" aria-expanded="true">Other Summary</a>
+                                        <li class="nav-item"><a class="nav-link active" href="#other-summary" data-toggle="tab" aria-expanded="true">Other Summary<i class="list-icon fa fa-columns pull-right"></i></a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#today-summary" data-toggle="tab" aria-expanded="true">Today Summary</a>
+                                        <li class="nav-item"><a class="nav-link" href="#today-summary" data-toggle="tab" aria-expanded="true">Today Summary<i class="list-icon fa fa-columns pull-right"></i></a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-tabs -->
@@ -54,14 +54,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Members Online</p><span class="counter-title color-primary"><span class="counter">2860</span> </span>
+                                                                        <p class="text-muted mr-b-5">Total Sales</p><span class="counter-title color-primary"><span class="counter">RM 29,860</span> </span>
                                                                         <!-- /.counter-title --> <span class="counter-difference text-success"><i class="feather feather-arrow-up"></i> 23%</span>
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-primary" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-primary"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-money bg-primary"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -76,14 +79,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Monthly Hoal</p><span class="counter-title color-info"><span class="counter">58</span>%</span>
+                                                                        <p class="text-muted mr-b-5">Total Refund</p><span class="counter-title color-orange"><span class="counter">RM 3,400</span></span>
                                                                         <!-- /.counter-title --> <span class="counter-difference text-danger"><i class="feather feather-arrow-down"></i> 8%</span>
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-orange" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-award bg-info"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-mail-reply bg-orange"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -98,14 +104,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Monthly Revenue</p><span class="counter-title color-pink">&dollar;<span class="counter">8470</span> </span>
+                                                                        <p class="text-muted mr-b-5">Total Tax</p><span class="counter-title color-pink"><span class="counter">RM 8,470</span> </span>
                                                                         <!-- /.counter-title -->
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-pink" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-briefcase bg-pink"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-percent bg-pink"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -120,14 +129,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Hours Worked</p><span class="counter-title"><span class="counter">376</span> </span>
+                                                                        <p class="text-muted mr-b-5">Total Coupons</p><span class="counter-title color-purple"><span class="counter">376</span> </span>
                                                                         <!-- /.counter-title -->
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-purple" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-clock bg-warning"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-ticket bg-purple"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -147,14 +159,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Members Online</p><span class="counter-title color-primary"><span class="counter">2860</span> </span>
+                                                                        <p class="text-muted mr-b-5">Total Registered</p><span class="counter-title color-purple"><span class="counter">2860</span> </span>
                                                                         <!-- /.counter-title --> <span class="counter-difference text-success"><i class="feather feather-arrow-up"></i> 23%</span>
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-purple" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-primary"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-user-plus bg-purple"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -169,14 +184,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Monthly Hoal</p><span class="counter-title color-info"><span class="counter">58</span>%</span>
+                                                                        <p class="text-muted mr-b-5">Total Guest Customer</p><span class="counter-title color-green"><span class="counter">58</span></span>
                                                                         <!-- /.counter-title --> <span class="counter-difference text-danger"><i class="feather feather-arrow-down"></i> 8%</span>
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-green" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-award bg-info"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-user bg-green"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -191,14 +209,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Monthly Revenue</p><span class="counter-title color-pink">&dollar;<span class="counter">8470</span> </span>
+                                                                        <p class="text-muted mr-b-5">Cost of Goods</p><span class="counter-title color-blue"><span class="counter">RM 8,470</span> </span>
                                                                         <!-- /.counter-title -->
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-blue" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-briefcase bg-pink"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-shopping-bag bg-blue"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->
@@ -213,14 +234,17 @@ if(!isset($_SESSION['admin_email'])){
                                                             <div class="widget-body" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);">
                                                                 <div class="counter-w-info media">
                                                                     <div class="media-body">
-                                                                        <p class="text-muted mr-b-5">Hours Worked</p><span class="counter-title"><span class="counter">376</span> </span>
+                                                                        <p class="text-muted mr-b-5">Total Profit</p><span class="counter-title color-orange"><span class="counter">RM 32,276</span> </span>
                                                                         <!-- /.counter-title -->
                                                                         <div class="mr-t-20"><span data-toggle="sparklines" data-height="15" data-width="70" data-line-color="#1976d2" data-line-width="3" data-spot-radius="1" data-fill-color="rgba(0,0,0,0)" data-spot-color="undefined" data-min-spot-color="undefined"
                                                                             data-max-spot-color="undefined" data-highlight-line-color="undefined"><!-- 10,5,7,8,3,0,4,12,10,8,12 --></span>
                                                                         </div>
+                                                                        <div class="progress" style="width: 70%; position: relative; top: 25px">
+                                                                            <div class="progress-bar bg-orange" style="width: 100%" role="progressbar"><span class="sr-only"></span></div>
+                                                                        </div>
                                                                     </div>
                                                                     <!-- /.media-body -->
-                                                                    <div class="pull-right align-self-center"><i class="list-icon feather feather-clock bg-warning"></i>
+                                                                    <div class="pull-right align-self-center"><i class="list-icon fa fa-diamond bg-orange"></i>
                                                                     </div>
                                                                 </div>
                                                                 <!-- /.counter-w-info -->

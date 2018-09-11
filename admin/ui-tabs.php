@@ -12,6 +12,10 @@ if(!isset($_SESSION['admin_email'])){
 <!DOCTYPE html>
 <html lang="en">
 
+        // TODO: this is
+        // ! important
+        //? what is this?
+        
         <main class="main-wrapper clearfix">
             <!-- Page Title Area -->
             <div class="row page-title clearfix">
