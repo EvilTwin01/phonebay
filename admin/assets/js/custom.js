@@ -1277,13 +1277,13 @@
             label: "My First dataset",
             backgroundColor: "#5867c3",
             strokeColor: "#5867c3",
-            data: [16, -60, 30, -50, 26, -55, 55]
+            data: [16, 60, 30, 50, 26, 55, 55]
           },
           {
             label: "My Second dataset",
             backgroundColor: "#00cedc",
             strokeColor: "#00cedc",
-            data: [-28, 48, -40, 19, -55, 27, -50]
+            data: [28, 48, 40, 19, 55, 27, 50]
           }
         ]
       };

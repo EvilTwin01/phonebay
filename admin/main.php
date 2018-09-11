@@ -38,11 +38,11 @@ if(!isset($_SESSION['admin_email'])){
                             <div class="widget-body clearfix">
                                 <div class="tabs">
                                     <ul class="nav nav-tabs nav-justified">
-                                        <li class="nav-item"><a class="nav-link" href="#total-summary" data-toggle="tab" aria-expanded="true">Total Summary<i class="list-icon fa fa-cogs pull-right"></i></a>
+                                        <li class="nav-item"><a class="nav-link" href="#total-summary" data-toggle="tab" aria-expanded="true">TOTAL SUMMARY<i class="list-icon fa fa-cogs pull-right"></i></a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link active" href="#other-summary" data-toggle="tab" aria-expanded="true">Other Summary<i class="list-icon fa fa-columns pull-right"></i></a>
+                                        <li class="nav-item"><a class="nav-link active" href="#other-summary" data-toggle="tab" aria-expanded="true">OTHER SUMMARY<i class="list-icon fa fa-columns pull-right"></i></a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#today-summary" data-toggle="tab" aria-expanded="true">Today Summary<i class="list-icon fa fa-columns pull-right"></i></a>
+                                        <li class="nav-item"><a class="nav-link" href="#today-summary" data-toggle="tab" aria-expanded="true">TODAY SUMMARY<i class="list-icon fa fa-columns pull-right"></i></a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-tabs -->
@@ -283,8 +283,73 @@ if(!isset($_SESSION['admin_email'])){
                 <!-- /.row -->
             
 
-
-
+            <!-- chart area start -->
+            <!-- Tabs Justified -->
+            <div class="row" >
+                <div class="col-md-12 widget-holder">
+                    <div class="widget-bg">
+                        <div class="widget-body clearfix" style="border: 1px solid #e0e0e0;">
+                            <h5 class="box-title">Chart Summary</h5>
+                            <div class="tabs">
+                                <ul class="nav nav-tabs nav-justified">
+                                    <li class="nav-item"><a class="nav-link" href="#home-tab2" data-toggle="tab" aria-expanded="true">SALES BY MONTH</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link active" href="#profile-tab2" data-toggle="tab" aria-expanded="true">SALES BY DAY</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#messages-tab2" data-toggle="tab" aria-expanded="true">TOP CATEGORY</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#settings-tab2" data-toggle="tab" aria-expanded="true">TOP PRODUCTS</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-tabs -->
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="home-tab2">
+                                        <div class="row">
+                                            <div class="col-md-12 widget-holder">
+                                                <div class="widget-bg">
+                                                    <div class="widget-body clearfix">
+                                                        <h5 class="box-title">Bar Chart</h5>
+                                                        <div class="">
+                                                            <canvas id="chartJsBarMiddleAxes"></canvas>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.widget-body -->
+                                                </div>
+                                                <!-- /.widget-bg -->
+                                            </div>
+                                            <!-- /.widget-holder -->
+                                        </div>  
+                                    </div>
+                                    <div class="tab-pane active" id="profile-tab2">
+                                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                    </div>
+                                    <div class="tab-pane" id="messages-tab2">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                    </div>
+                                    <div class="tab-pane" id="settings-tab2">
+                                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                    </div>
+                                </div>
+                                <!-- /.tab-content -->
+                            </div>
+                            <!-- /.tabs -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+            </div>
+            <!-- chart area end -->
 
 
 
